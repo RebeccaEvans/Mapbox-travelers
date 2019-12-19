@@ -1,26 +1,20 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
+    "database": "mapbox-traveler",
     "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
+    "dialect": "postgres",
+    "operatorsAliases": "false"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
+    "database": "mapbox-traveler_test",
     "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
+    "dialect": "postgres",
+    "operatorsAliases": "false"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
+    "database": "mapbox-traveler_production",
     "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
+    "dialect": "postgres",
+    "operatorsAliases": "false"
   }
 }
